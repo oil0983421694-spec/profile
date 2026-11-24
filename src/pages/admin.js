@@ -16,7 +16,7 @@ export function AdminPage() {
           <thead>
             <tr class="bg-slate-100 text-slate-700 text-sm">
               <th class="p-3 rounded-tl-lg">ID</th>
-              <th class="p-3">ชื่อผู้ใช้งาน</th>
+              <th class="p-3">ชื่อผู้ดูแลระบบ</th>
               <th class="p-3">สถานะ</th>
               <th class="p-3 rounded-tr-lg">จัดการ</th>
             </tr>
@@ -24,13 +24,7 @@ export function AdminPage() {
           <tbody class="divide-y divide-slate-200 text-sm">
             <tr>
               <td class="p-3 font-medium">#001</td>
-              <td class="p-3">สมชาย ใจดี</td>
-              <td class="p-3"><span class="px-2 py-1 bg-green-100 text-green-700 rounded-full text-xs">Active</span></td>
-              <td class="p-3 text-indigo-600 hover:underline cursor-pointer">แก้ไข</td>
-            </tr>
-            <tr>
-              <td class="p-3 font-medium">#002</td>
-              <td class="p-3">สมหญิง รักเรียน</td>
+              <td class="p-3 font-semibold text-slate-800">นายธนากร นาทันลิ</td>
               <td class="p-3"><span class="px-2 py-1 bg-green-100 text-green-700 rounded-full text-xs">Active</span></td>
               <td class="p-3 text-indigo-600 hover:underline cursor-pointer">แก้ไข</td>
             </tr>
