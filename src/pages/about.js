@@ -1,29 +1,24 @@
 export function AboutPage() {
   return `
-    <section class="max-w-4xl mx-auto px-4 py-12">
-      <div class="bg-white rounded-2xl shadow-md border border-slate-100 p-8 md:p-10">
-        <span class="inline-block px-3 py-1 text-xs font-semibold uppercase bg-emerald-100 text-emerald-700 rounded-full mb-3">
-          About Page
-        </span>
-        <h1 class="text-3xl font-bold text-slate-900 mb-4">เกี่ยวกับเรา</h1>
-        <p class="text-slate-600 leading-relaxed mb-6">
-          หน้านี้จัดทำขึ้นเพื่อแสดงรายละเอียดข้อมูลทั่วไป รายละเอียดโปรเจกต์ และโครงสร้างการแบ่งหน้าเว็บไซต์ด้วย JavaScript
-        </p>
-        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
-          <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
-            <div class="text-sm text-slate-500">จำนวนหน้า</div>
-            <div class="text-2xl font-bold text-slate-800 mt-1">4 หน้า</div>
-          </div>
-          <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
-            <div class="text-sm text-slate-500">สไตล์</div>
-            <div class="text-2xl font-bold text-slate-800 mt-1">Tailwind CSS</div>
-          </div>
-          <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
-            <div class="text-sm text-slate-500">โฮสติ้ง</div>
-            <div class="text-2xl font-bold text-slate-800 mt-1">Vercel</div>
-          </div>
+    <div class="max-w-4xl mx-auto mt-10 p-8 bg-white rounded-2xl shadow-md border border-slate-100">
+      <h1 class="text-3xl font-bold text-slate-800 mb-4">เกี่ยวกับเรา (About)</h1>
+      <p class="text-slate-600 mb-6 leading-relaxed">
+        โปรเจกต์นี้สร้างขึ้นเพื่อฝึกการจัดการ Routing แบบ Single Page Application (SPA) ด้วย JavaScript ล้วน และการแบ่งโครงสร้างไฟล์ให้เป็นระเบียบในโฟลเดอร์ <code class="bg-slate-100 px-2 py-1 rounded text-pink-600">src/pages</code>
+      </p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
+        <div class="p-4 bg-blue-50 rounded-xl">
+          <h3 class="font-bold text-blue-800 mb-1">รวดเร็ว</h3>
+          <p class="text-sm text-blue-600">ทำงานด้วย Vite ทำให้โหลดหน้าเว็บได้ไว</p>
+        </div>
+        <div class="p-4 bg-emerald-50 rounded-xl">
+          <h3 class="font-bold text-emerald-800 mb-1">สวยงาม</h3>
+          <p class="text-sm text-emerald-600">ตกแต่ง UI ทุกหน้าด้วย Tailwind CSS</p>
+        </div>
+        <div class="p-4 bg-purple-50 rounded-xl">
+          <h3 class="font-bold text-purple-800 mb-1">เป็นระเบียบ</h3>
+          <p class="text-sm text-purple-600">แยกโค้ดแต่ละหน้าออกเป็นสัดส่วน</p>
         </div>
       </div>
-    </section>
+    </div>
   `;
 }
